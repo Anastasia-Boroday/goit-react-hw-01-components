@@ -8,7 +8,6 @@ import data from "./JsonDocument/data.json";
 import friends from "./JsonDocument/friends.json";
 import transactions from "./JsonDocument/transactions.json";
 
-
 export default function App() {
   return (
     <ContainerApp>
