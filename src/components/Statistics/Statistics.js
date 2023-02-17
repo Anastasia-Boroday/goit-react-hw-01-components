@@ -15,8 +15,8 @@ function randomColor() {
 }
 export function Statistics({title,stats}) { 
 return (
-    <Block>
-        <Title>{title}</Title>
+  <Block>
+    {title?<Title>{title}</Title>:''}
         <StatList >
             {stats.map(el => (
                 <StatItem  key={el.id} backgroundColor={randomColor()}>
