@@ -20,7 +20,7 @@ export const GeneralText = styled.th`
 `;
 export const Info = styled.tbody``;
 export const InfoHor = styled.tr`
-:nth-child(even) {background-color: #f2f2f2;}
+
 `;
 export const InfoTd = styled.td`
     text-align:center;
