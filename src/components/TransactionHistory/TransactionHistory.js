@@ -6,7 +6,7 @@ import {
     GeneralText,
     Info,
     InfoHor,
-InfoTd
+    InfoTd
 } from './TransactionHistory.styled';
 export function TransactionHistory({items}) {
     return (
