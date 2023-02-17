@@ -29,6 +29,3 @@ props.backgroundColor};
 export const Photo = styled.img`
 margin-right:20px;`;
 export const Name = styled.p``;
-export const Green = styled.span`
-background-color:green;
-`;
