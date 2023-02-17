@@ -12,7 +12,7 @@ export function FriendList({friends}) {
     <FriendsList>
         {friends.map(el => (
         <ListItem key={el.id}>
-        <Online backgroundColor={el.isOnline==true?`green`:`red`}></Online>
+        <Online backgroundColor={el.isOnline===true?`green`:`red`}></Online>
         <Photo src={el.avatar} alt="User avatar" width="48" />
         <Name>{el.name}</Name>
         </ListItem>
