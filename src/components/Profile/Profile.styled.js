@@ -7,6 +7,7 @@ text-align-last: center;
 background-color:#cccc9296;
 box-shadow: 6px 5px 5px grey;
 border-radius:10px;
+margin-bottom:20px;
 
 font-family: 'Roboto', sans-serif;
 `;
